@@ -45,13 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Camera\CameraPan.cs" />
+     <Compile Include="Assets\General\GameManager.cs" />
+     <Compile Include="Assets\General\PlayerPrefsManager.cs" />
+     <Compile Include="Assets\General\RollerBall\Scripts\Ball.cs" />
+     <Compile Include="Assets\General\RollerBall\Scripts\BallUserControl.cs" />
      <Compile Include="Assets\MyScript.cs" />
      <Compile Include="Assets\Player\Player.cs" />
+     <Compile Include="Assets\Player\ReplaySystem.cs" />
+     <Compile Include="Assets\SelfieStick.cs" />
      <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\General\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
